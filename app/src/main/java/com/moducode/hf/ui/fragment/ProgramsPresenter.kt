@@ -3,14 +3,14 @@ package com.moducode.hf.ui.fragment
 import com.hannesdorfmann.mosby3.mvp.MvpBasePresenter
 import com.moducode.hf.data.Program
 import com.moducode.hf.schedulers.SchedulersBase
-import com.moducode.hf.service.RetrofitService
+import com.moducode.hf.service.StationsService
 import timber.log.Timber
 import javax.inject.Inject
 
 class ProgramsPresenter
     : MvpBasePresenter<StationFragmentContract.View>(), StationFragmentContract.Actions {
 
-    @Inject lateinit var service: RetrofitService
+    @Inject lateinit var service: StationsService
     @Inject lateinit var schedulers: SchedulersBase
 
     override fun fetchPrograms(pullToRefresh: Boolean) {

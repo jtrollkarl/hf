@@ -5,9 +5,9 @@ import com.moducode.hf.service.StationsService
 import com.moducode.hf.ui.fragment.ProgramsPresenter
 import dagger.Component
 
-@PresenterScope
-@Component(modules = [SchedulerModule::class, RetrofitModule::class])
-interface PresenterComponent {
+
+@Component(modules = [SchedulerModule::class, RetrofitTestModule::class])
+interface TestComponent {
 
     val stationsService: StationsService
 
