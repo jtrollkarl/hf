@@ -3,4 +3,8 @@
 
     <string name="error_refresh">Error fetching stations!</string>
 
+    <string name="station_name" translatable="true">Name: %1$s</string>
+    <string name="station_channel" translatable="true">Channel: %1$s</string>
+    <string name="station_email" translatable="true">Email: %1$s</string>
+
 </resources>
