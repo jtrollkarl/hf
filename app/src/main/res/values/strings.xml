@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">hf</string>
+
+    <string name="error_refresh">Error fetching stations!</string>
+
 </resources>
